@@ -109,8 +109,6 @@ void lcd_cls(void);                     // turned on for compilation
 void lcd_str(char * str);               // turned on for compilation
 
 void lcd_locate(uint8_t y, uint8_t x);                    // turned on by default for compilation
-
-void lcd_char(char c);                                    // turned off by default for compilation in lcd_display.c
 void lcd_str_P(const char * str);                         // turned off by default for compilation in lcd_display.c
 void lcd_str_E(char * str);                               // turned off by default for compilation in lcd_display.c
 void lcd_int(int val);                                    // turned off by default for compilation in lcd_display.c
